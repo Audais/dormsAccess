@@ -1,0 +1,62 @@
+{% extends "main_template.html" %}
+
+{% block title %}Dorms Access Manager{% endblock %}
+
+{% block content %}
+
+
+    <div>
+        <ul class="navbar-custom">
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/">Home<br>
+                <div class="navbar-custom-div-active"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/display_visitor_logs">Logs<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+        
+        
+        
+            <div style="float:right">
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/"><span
+                        class="glyphicon glyphicon-user"></span> Logged as:
+                    <strong>{{ status }}</strong></a></li>
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/logout"><span
+                        class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+            </div>
+        </ul>
+        <ul>
+
+        </ul>
+    </div>
+
+
+
+
+    <div class="main-content">
+
+        <form action="{% url "visitor" %}"
+              method="POST">{% csrf_token %}
+
+            <h1>YOUR ACCESS</h1>
+
+            <label style="color: #EF3B3A;"><strong>{{ message }}</strong></label>
+            <fieldset>
+
+
+
+                <ul id="visitorsList" class="list-group">
+                    <input type="hidden" name="visitor_access">
+                    {% for key, value in visitor_access.items %}
+                        <li dir="ltr" id="{{ key }}" class="list-group-item">
+                            <input type="hidden" value="{{ key }}" name="visitor_access">{{ value }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </fieldset>
+        </form>
+
+    </div>
+
+{% endblock %}

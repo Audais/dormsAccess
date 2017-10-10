@@ -1,0 +1,100 @@
+{% extends "main_template.html" %}
+
+{% block title %}Dorms Access Manager{% endblock %}
+
+{% block content %}
+
+
+    <div>
+        <ul class="navbar-custom">
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/">Residents<br>
+                <div class="navbar-custom-div-active"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/add_resident">Add New Resident<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/admin_visitors">Visitors<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/admin_visitors_access">Access<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/blacklist">Blacklist<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/display_all_logs">Logs<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            <div style="float:right">
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/"><span
+                        class="glyphicon glyphicon-user"></span> Logged as:
+                    <strong>{{ status }}</strong></a></li>
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/logout"><span
+                        class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+            </div>
+        </ul>
+        <ul>
+
+        </ul>
+    </div>
+
+
+
+
+    <div class="main-content">
+
+        <form action="{% url "admin" %}"
+              method="POST">{% csrf_token %}
+
+            <h1> Residents List </h1>
+
+            <label style="color: #EF3B3A;"><strong>{{ message }}</strong></label>
+            <fieldset>
+
+                <ul id="residents_list" class="list-group">
+                    <input type="hidden" name="residents_list">
+                    {% for key, value in residents_list.items %}
+                        <li dir="rtl" id="{{ key }}" class="list-group-item">
+                            <input type="hidden" value="{{ key }}" name="residents_list">{{ key }} , {{ value }}<span
+                                class="glyphicon glyphicon-trash pull-right" onclick="removeResident('{{ key }}')"></span>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </fieldset>
+
+            <button class="button-custom" type="submit">SAVE</button>
+        </form>
+
+        <script type="text/javascript">
+
+            function removeResident(resident_id) {
+                var ul = document.getElementById("residents_list");
+                var li = document.getElementById(resident_id);
+                ul.removeChild(li);
+                return false;
+            }
+
+            $(document).ready(function () {
+                $(window).keydown(function (event) {
+                    if (event.keyCode == 13) {
+                        event.preventDefault();
+                        return false;
+                    }
+                });
+            });
+        </script>
+
+    </div>
+
+{% endblock %}

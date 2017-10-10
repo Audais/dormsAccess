@@ -7,15 +7,34 @@
 
     <div>
         <ul class="navbar-custom">
-            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/">Home<br>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/">Residents<br>
                 <div class="navbar-custom-div-active"></div>
             </a></li>
 
             </a></li>
-            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/display_resident_logs">Logs<br>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/add_resident">Add New Resident<br>
                 <div class="navbar-custom-div"></div>
             </a></li>
             
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/admin_visitors">Visitors<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+            
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/admin_visitors_access">Access<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+            
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/blacklist">Blacklist<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/display_all_logs">Logs<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
             
 
             <div style="float:right">
@@ -36,24 +55,24 @@
 
     <div class="main-content">
 
-        <form action="{% url "index" %}"
+        <form action="{% url "blacklist" %}"
               method="POST">{% csrf_token %}
 
-            <h1>Add/Remove Visitors</h1>
+            <h1>Blacklist</h1>
 
             <label style="color: #EF3B3A;"><strong>{{ message }}</strong></label>
             <fieldset>
                 <div class="field-wrap">
-                    <label for="visitor_id">Add New Access:</label>
-                    <input type="text" id="visitor_id" name="visitor_id" autocomplete="off"
-                           placeholder="Type visitor id...">
+                    <label for="user_id">Add User To Blacklist</label>
+                    <input type="text" id="user_id" name="user_id" autocomplete="off"
+                           placeholder="Type user id...">
                 </div>
 
-                <ul id="visitorsList" class="list-group">
-                    <input type="hidden" name="visitors_list">
-                    {% for key, value in visitors_list.items %}
-                        <li dir="ltr" id="{{ key }}" class="list-group-item">
-                            <input type="hidden" value="{{ key }}" name="visitors_list">{{key}} , {{ value }} <span
+                <ul id="blacklistList" class="list-group">
+                    <input type="hidden" name="blacklist_list">
+                    {% for key, value in blacklist_list.items %}
+                        <li dir="rtl" id="{{ key }}" class="list-group-item">
+                            <input type="hidden" value="{{ key }}" name="blacklist_list">{{ value }} , {{ key }}<span
                                 class="glyphicon glyphicon-trash pull-right" onclick="removeAccess('{{ key }}')"></span>
                         </li>
                     {% endfor %}
@@ -65,9 +84,9 @@
 
         <script type="text/javascript">
 
-            function removeAccess(visitor_id) {
-                var ul = document.getElementById("visitorsList");
-                var li = document.getElementById(visitor_id);
+            function removeAccess(user_id) {
+                var ul = document.getElementById("blacklistList");
+                var li = document.getElementById(user_id);
                 ul.removeChild(li);
                 return false;
             }

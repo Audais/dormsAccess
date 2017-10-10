@@ -1,0 +1,271 @@
+.taglinebody {
+    vertical-align: middle;
+    min-height: 200px;
+    margin-top: -10px;
+    background: url(IMG_0666.jpg) no-repeat 60% 40% #1e1916;
+
+}
+
+h3.taglinetext {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    width: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #ff6501;
+    margin: 0;
+    padding: 6px;
+}
+
+.wrapper {
+    margin-left: 150px;
+    margin-right: 150px;
+    background: #FFFFFF;
+    min-height: 750px;
+}
+
+body {
+    background: #333;
+}
+
+.main-content {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    min-height: 430px;
+}
+
+
+.site-footer {
+    background: #666;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.text-center a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.top-result {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+
+}
+
+.other-results {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+
+.other-results-link {
+    margin-left: 20px;
+}
+
+.groupmembersHd {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.groupMembersLft, .groupMembersRgt {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.groupMembersLft .firstChild {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.inviteIcon {
+    width: 35px;
+    height: 35px;
+    border: none;
+    position: absolute;
+    right: 70px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url(../assets/add_user.png) no-repeat center center transparent;
+    background-size: 35px;
+    cursor: pointer;
+}
+
+.leaveGroupIcon {
+    width: 35px;
+    height: 35px;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url(../assets/logout.png) no-repeat center center transparent;
+    background-size: 35px;
+    cursor: pointer;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    display: none;
+    min-width: 160px;
+    _width: 160px;
+    padding: 4px 0;
+    margin: 2px 0 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    *border-right-width: 2px;
+    *border-bottom-width: 2px;
+}
+
+.ui-autocomplete .ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+}
+
+.ui-autocomplete .ui-menu-item > a.ui-corner-all.ui-state-hover, .ui-autocomplete .ui-menu-item > a.ui-corner-all.ui-state-active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0088cc;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background-image: none;
+}
+
+.navbar-item {
+    margin-top: 5px;
+    height: 5px;
+    color: #666;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+
+.navbar-custom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.navbar-custom-item {
+    float: left;
+}
+
+.navbar-custom-item-link, .navbar-custom-item-link:hover {
+    display: block;
+    color: #666666;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-custom-item:hover .navbar-custom-div {
+    background-color: #ff9900;
+}
+
+.navbar-custom-div {
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    background-color: #FFFFFF;
+}
+
+.navbar-custom-div-active {
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    background-color: #ff9900;
+}
+
+thead {
+    color: #666666;
+    font-weight: bold;
+}
+
+.form-like {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.form-like-button {
+    padding: 19px 39px 18px 39px;
+    width: 100%;
+    color: #FFF;
+    background-color: #ff9900;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid #ff9900;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin-bottom: 10px;
+}
+
+.form-like h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+
+    .form-like {
+        max-width: 600px;
+    }
+}
+
+.modal-backdrop {
+    z-index: auto;
+}
+
+.close {
+    width: auto;
+}
+
+.modal h4{
+    text-align: center;
+}
+
+.modal-body label {
+    text-align: center;
+    margin-bottom: 30px;
+}

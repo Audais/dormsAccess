@@ -1,5 +1,4 @@
 {% extends "main_template.html" %}
-
 {% block title %}Dorms Access Manager{% endblock %}
 
 {% block content %}
@@ -7,6 +6,7 @@
 
     <div>
         <ul class="navbar-custom">
+
             <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/">Home<br>
                 <div class="navbar-custom-div-active"></div>
             </a></li>
@@ -15,8 +15,7 @@
             <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/display_resident_logs">Logs<br>
                 <div class="navbar-custom-div"></div>
             </a></li>
-            
-            
+
 
             <div style="float:right">
                 <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/"><span
@@ -36,51 +35,24 @@
 
     <div class="main-content">
 
-        <form action="{% url "index" %}"
+        <form action="{% url "display_resident_logs" %}"
               method="POST">{% csrf_token %}
 
-            <h1>Add/Remove Visitors</h1>
+            <h1>LOGS</h1>
 
             <label style="color: #EF3B3A;"><strong>{{ message }}</strong></label>
             <fieldset>
-                <div class="field-wrap">
-                    <label for="visitor_id">Add New Access:</label>
-                    <input type="text" id="visitor_id" name="visitor_id" autocomplete="off"
-                           placeholder="Type visitor id...">
-                </div>
 
-                <ul id="visitorsList" class="list-group">
-                    <input type="hidden" name="visitors_list">
-                    {% for key, value in visitors_list.items %}
+                <ul id="logsList" class="list-group">
+                    <input type="hidden" name="logs">
+                    {% for key, value in logs_list.items %}
                         <li dir="ltr" id="{{ key }}" class="list-group-item">
-                            <input type="hidden" value="{{ key }}" name="visitors_list">{{key}} , {{ value }} <span
-                                class="glyphicon glyphicon-trash pull-right" onclick="removeAccess('{{ key }}')"></span>
+                            <input type="hidden" value="{{ key }}" name="logs_list">{{ key }} | {{ value }}
                         </li>
                     {% endfor %}
                 </ul>
             </fieldset>
-
-            <button class="button-custom" type="submit">SAVE</button>
         </form>
-
-        <script type="text/javascript">
-
-            function removeAccess(visitor_id) {
-                var ul = document.getElementById("visitorsList");
-                var li = document.getElementById(visitor_id);
-                ul.removeChild(li);
-                return false;
-            }
-
-            $(document).ready(function () {
-                $(window).keydown(function (event) {
-                    if (event.keyCode == 13) {
-                        event.preventDefault();
-                        return false;
-                    }
-                });
-            });
-        </script>
 
     </div>
 

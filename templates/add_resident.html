@@ -1,0 +1,78 @@
+{% extends "main_template.html" %}
+
+{% block title %}Dorms Access Manager{% endblock %}
+
+{% block content %}
+
+
+    <div>
+        <ul class="navbar-custom">
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/">Residents<br>
+                <div class="navbar-custom-div-active"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/add_resident">Add New Resident<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/admin_visitors">Visitors<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/admin_visitors_access">Access<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/blacklist">Blacklist<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/display_all_logs">Logs<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+
+            <div style="float:right">
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/"><span
+                        class="glyphicon glyphicon-user"></span> Logged as:
+                    <strong>{{ status }}</strong></a></li>
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/logout"><span
+                        class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+            </div>
+        </ul>
+        <ul>
+
+        </ul>
+    </div>
+
+
+
+
+    <div class="main-content">
+
+        <form action="{% url "add_resident" %}"
+              method="POST">{% csrf_token %}
+            <label style="color: #EF3B3A;"><strong>{{ msg }}</strong></label>
+            <label for="id">Resident Id:</label>
+            <input type="text" id="id" name="id" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="room">Room:</label>
+            <input type="text" id="room" name="room" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button class="button-custom" type="submit">ADD NEW RESIDENT</button>
+        </form>
+
+    </div>
+
+{% endblock %}

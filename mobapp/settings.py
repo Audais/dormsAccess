@@ -25,7 +25,7 @@ SECRET_KEY = '&c(bl%1h&#69heu4js-$m9d=_kv-7cppx+_r+*dyf*3h0iqc9='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['13.65.196.1','dormsaccess.southcentralus.cloudapp.azure.com']
 
 
 # Application definition
@@ -79,19 +79,18 @@ WSGI_APPLICATION = 'mobapp.wsgi.application'
 
 DATABASES = {
         'default': {
-            #'ENGINE': 'django.db.backends.mysql',
-            #'NAME': 'dormsaccess',
-            #'PORT': '3306'
-            #'USER': 'root',
-            #'PASSWORD': '123456',
-            #'HOST': 'mysqlsrv.cs.tau.ac.il',   # Or an IP Address that your DB is hosted on
-            #'HOST' : 'localhost',
-            'ENGINE': 'sql_server.pyodbc',
-            'NAME' : 'resident',
-            'USER': 'audais',
-            'PASSWORD': 'Abc123456',
-            'HOST': 'residents.database.windows.net',   # Or an IP Address that your DB is hosted on
-            'PORT': '1433'
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'dorms',
+            'PORT': '3306',
+            'USER': 'root',
+            'PASSWORD': '123456',
+            'HOST' : 'localhost',
+            #'ENGINE': 'sql_server.pyodbc',
+            #'NAME' : 'dorms',
+            #'USER': 'audais',
+            #'PASSWORD': 'Abc123456789',
+            #'HOST': 'dorms.database.windows.net',   # Or an IP Address that your DB is hosted on
+            #'PORT': '1433'
         }
 }
 

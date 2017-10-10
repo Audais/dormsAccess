@@ -1,0 +1,50 @@
+{% extends "main_template.html" %}
+
+{% block title %}Dorms Access Manager{% endblock %}
+{% block content %}
+
+
+    <div>
+        <ul class="navbar-custom">
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/">Home<br>
+                <div class="navbar-custom-div-active"></div>
+            </a></li>
+
+            </a></li>
+            <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/add_access">Add access<br>
+                <div class="navbar-custom-div"></div>
+            </a></li>
+
+            <div style="float:right">
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/"><span
+                        class="glyphicon glyphicon-user"></span> Logged as:
+                    <strong>{{ status }}</strong></a></li>
+                <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/logout"><span
+                        class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+            </div>
+        </ul>
+        <ul>
+
+        </ul>
+    </div>
+
+
+
+
+    <div class="main-content">
+
+        <form action="{% url "add_access" %}"
+              method="POST">{% csrf_token %}
+            <label style="color: #EF3B3A;"><strong>{{ visitor_access }}</strong></label>
+            <label for="id">Visitor Id:</label>
+            <input type="text" id="id" name="id" required>
+
+            <label for="room">Room:</label>
+            <input type="text" id="room" name="room" required>
+
+            <button class="button-custom" type="submit">ADD ACCESS</button>
+        </form>
+
+    </div>
+
+{% endblock %}

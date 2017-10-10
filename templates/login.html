@@ -1,14 +1,26 @@
-{% extends "base.html" %}
+{% extends "main_template.html" %}
+
+{% block title %}Dorms Access Manager{% endblock %}
 
 {% block content %}
 
-   <form  action="" method="POST">
-       <h1>login resident</h1>
-  {% csrf_token %}
-  {{ formlogin.as_p }}
- <button type="submit" class="btn btn-primary"  >  Login Now</button>
+    <div class="main-content">
 
-       <h1>{{msg}}</h1>
-</form>
+        <form action="{% url "login" %}"
+              method="POST">{% csrf_token %}
+
+            <label style="color: #EF3B3A;"><strong>{{ message }}</strong></label>
+
+            <label for="id">id:</label>
+            <input type="text" id="id" name="id" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button class="button-custom" type="submit">LOG IN</button>
+            <p class="message">Visitor ?Not registered? <a href="../signup/">Create an account</a></p>
+        </form>
+
+    </div>
 
 {% endblock %}
