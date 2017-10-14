@@ -3,7 +3,12 @@ from forms import *
 from query_handler import *
 import json
 import datetime
+import os
 
+
+SECURITY_SMS = '''curl -X POST  https://rest.nexmo.com/sms/json -d api_key=df746649 -d api_secret=1d240f5535b42132 -d to=972538303783 -d from="DORMS ACCESS MANAGER" -d text="BLACKLIST USER \nID: {}\nROOM: {}\nNAME: {}\nTRYING TO ACCESS DORMS!"'''
+
+RSEIDENT_SMS = '''curl -X POST  https://rest.nexmo.com/sms/json -d api_key=df746649 -d api_secret=1d240f5535b42132 -d to=972523972339 -d from="DORMS ACCESS MANAGER" -d text="VISITOR ID: {}\nNAME: {}\n,ARRIVED TO VISIT YOU"'''
 
 ######################################### <WEB APP REQUESTS> #############################################################
 
@@ -72,8 +77,9 @@ def index(request):
                     visitors_dict[str(ele[0])] = visitor_name[0] + '\t--BLACKLIST--\t'
                 else:
                     visitors_dict[ele[0]] = visitor_name[0]
+            welcome = '{} , {}'.format(get_resident_name(id)[0],room[0])
             return render(request, 'index.html',
-                          {"status": request.session['id'], "visitors_list": visitors_dict, 'message': message})
+                          {"status": request.session['id'], "visitors_list": visitors_dict, 'message': message,'welcome':welcome})
     else:
         return render(request, 'login.html')
 
@@ -395,10 +401,12 @@ def login_mobile(request):
     data = request.POST
     valid = validate_user(data)
     if valid:
-        res = json.dumps([valid])
-        mimetype = 'application/json'
-        return HttpResponse(res, mimetype)
-    return HttpResponse(status=404)
+        results = [valid]
+    else:
+        results = [{'response': 'failed'}]
+    res = json.dumps(results)
+    mimetype = 'application/json'
+    return HttpResponse(res, mimetype) 
 
 
 def visitor_access(request):
@@ -408,21 +416,25 @@ def visitor_access(request):
     resident_id = get_resident_id(data['room'])
     valid_blacklist_resident = check_in_blacklist(resident_id)
     valid_blacklist_visitor = check_in_blacklist(data['id'])
+    id = data['id']
+    room = data['room']
     if valid:
         if valid_blacklist_resident:
             results = [{'response': 'failed', 'reason': 'resident is in blacklist'}]
         elif valid_blacklist_visitor:
             results = [{'response': 'failed', 'reason': 'visitor is in blacklist'}]
+            #os.system(SECURITY_SMS.format(id,room,get_visitor_name(id)[0]))
         if results[0]['response'] == 'success':
             timestamp = datetime.datetime.now()
             date = datetime.date.today()
-            id = data['id']
-            room = data['room']
             insert_new_log(timestamp, date, room, id)
+            cmd = RSEIDENT_SMS.format(id,get_visitor_name(id)[0])
+            #os.system(cmd)
         res = json.dumps(results)
         mimetype = 'application/json'
         return HttpResponse(res, mimetype)
     return HttpResponse(status=404)
+
 
 
 def resident_access(request):
@@ -442,24 +454,37 @@ def resident_access(request):
 
 
 def signup_mobile(request):
+    print request.POST
     data = request.POST  # {id,name,password}
     results = [{'response': 'failed', 'reason': ''}]
     valid = validate_new_user(data)
+    print data
+    print valid
     if valid:
         sign_up_visitor(data)
         results = [{'response': 'success', 'reason': ''}]
     else:
         results = [{'response': 'failed', 'reason': 'User is exist!'}]
-    if results['response'] == 'success':
-        timestamp = datetime.datetime.now()
-        date = datetime.date.today()
-        id = data['id']
-        room = data['room']
-        insert_new_log(timestamp, date, id, room)
     res = json.dumps(results)
     mimetype = 'application/json'
     return HttpResponse(res, mimetype)
 
+
+def get_name_mobile(request):
+     data = request.POST  # {id}
+     user_id = data['id']
+     user_name = ''
+     user_type = get_user_type(user_id)
+     if user_type == 'resident':
+         user_name = get_resident_name(user_id)[0]
+     else:
+         user_name = get_visitor_name(user_id)[0]
+     results = [{'name': user_name }]
+     res = json.dumps(results)
+     mimetype = 'application/json'
+     return HttpResponse(res, mimetype)
+     
+     
 
 ################################### HELPER FUNCTIONS #########################################################################################
 def add_new_visitor_access(visitor_id, room):

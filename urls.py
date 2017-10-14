@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^admin/$', index, name='admin'),
     url(r'^visitor/$', index, name='visitor'),
     url(r'^login_mobile/$', login_mobile, name='login_mobile'),
+    url(r'^get_name_mobile/$', get_name_mobile, name='get_name_mobile'),
     url(r'^signup/$', signup, name='signup'),
     url(r'^logout/$', logout, name='logout'),
     url(r'^add_resident/$', add_resident, name='add_resident'),

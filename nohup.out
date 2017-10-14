@@ -3201,3 +3201,2287 @@ NameError: name 'index' is not defined
 [10/Oct/2017 17:22:52] "GET /display_all_logs/ HTTP/1.1" 200 7386
 [10/Oct/2017 17:23:06] "GET /display_all_logs/ HTTP/1.1" 200 7386
 [10/Oct/2017 17:23:10] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[10/Oct/2017 17:49:16] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[10/Oct/2017 17:49:19] "GET / HTTP/1.1" 200 5882
+[10/Oct/2017 17:49:21] "GET /add_resident/ HTTP/1.1" 200 4352
+[10/Oct/2017 17:49:27] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[10/Oct/2017 17:49:29] "GET /blacklist/ HTTP/1.1" 200 5820
+[10/Oct/2017 17:50:45] "GET / HTTP/1.1" 200 5882
+[10/Oct/2017 17:52:03] "GET / HTTP/1.1" 200 2385
+[10/Oct/2017 17:52:09] "GET /logout/ HTTP/1.1" 302 0
+[10/Oct/2017 17:52:09] "GET /login/ HTTP/1.1" 200 2385
+[10/Oct/2017 17:52:19] "POST /login/ HTTP/1.1" 200 4941
+[10/Oct/2017 17:52:23] "GET /logout/ HTTP/1.1" 302 0
+[10/Oct/2017 17:52:23] "GET /login/ HTTP/1.1" 200 2385
+[10/Oct/2017 17:52:25] "POST /login/ HTTP/1.1" 200 4941
+[10/Oct/2017 17:53:35] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[10/Oct/2017 17:53:43] "GET / HTTP/1.1" 200 4941
+[10/Oct/2017 17:53:54] "GET /logout/ HTTP/1.1" 302 0
+[10/Oct/2017 17:53:54] "GET /login/ HTTP/1.1" 200 2385
+[10/Oct/2017 17:53:58] "POST /login/ HTTP/1.1" 200 3662
+[10/Oct/2017 17:54:09] "GET /display_visitor_logs/ HTTP/1.1" 200 3804
+[10/Oct/2017 17:54:11] "GET / HTTP/1.1" 200 3662
+[10/Oct/2017 17:56:28] "GET /display_visitor_logs/ HTTP/1.1" 200 3804
+[10/Oct/2017 17:56:38] "GET /logout/ HTTP/1.1" 302 0
+[10/Oct/2017 17:56:39] "GET /login/ HTTP/1.1" 200 2385
+[10/Oct/2017 17:56:41] "GET /logout/ HTTP/1.1" 302 0
+[10/Oct/2017 17:56:41] "GET /login/ HTTP/1.1" 200 2385
+[10/Oct/2017 17:56:50] "POST /login/ HTTP/1.1" 200 5882
+[10/Oct/2017 17:57:08] "GET /add_resident/ HTTP/1.1" 200 4352
+[10/Oct/2017 17:57:12] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[10/Oct/2017 17:57:38] "GET /admin_visitors_access/ HTTP/1.1" 200 6927
+[10/Oct/2017 17:57:44] "GET /blacklist/ HTTP/1.1" 200 5820
+[10/Oct/2017 17:57:51] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[10/Oct/2017 17:58:08] "POST /display_all_logs/ HTTP/1.1" 200 5658
+[10/Oct/2017 17:58:21] "POST /display_all_logs/ HTTP/1.1" 200 6235
+[10/Oct/2017 17:58:38] "POST /display_all_logs/ HTTP/1.1" 200 5661
+[10/Oct/2017 17:58:43] "GET /display_all_logs/ HTTP/1.1" 200 7385
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[10/Oct/2017 22:30:35] "GET http://www.baidu.com/ HTTP/1.1" 400 60488
+[11/Oct/2017 08:22:22] "GET /blacklist/ HTTP/1.1" 200 5820
+[11/Oct/2017 08:22:28] "GET /static/css/style.css HTTP/1.1" 200 5323
+[11/Oct/2017 08:22:28] "GET /static/css/form.css HTTP/1.1" 200 2244
+[11/Oct/2017 08:22:29] "GET /static/css/IMG_0666.jpg HTTP/1.1" 200 350653
+Not Found: /favicon.ico
+[11/Oct/2017 08:22:31] "GET /favicon.ico HTTP/1.1" 404 4184
+[11/Oct/2017 08:22:35] "GET /display_all_logs HTTP/1.1" 301 0
+[11/Oct/2017 08:22:35] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[11/Oct/2017 08:22:54] "POST /display_all_logs/ HTTP/1.1" 200 5658
+[11/Oct/2017 08:24:15] "GET /logout HTTP/1.1" 301 0
+[11/Oct/2017 08:24:15] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2017 08:24:16] "GET /login HTTP/1.1" 301 0
+[11/Oct/2017 08:24:16] "GET /login/ HTTP/1.1" 200 2385
+[11/Oct/2017 10:18:19] "GET / HTTP/1.1" 200 2385
+[11/Oct/2017 10:18:19] "GET /static/css/style.css HTTP/1.1" 200 5323
+[11/Oct/2017 10:18:19] "GET /static/css/form.css HTTP/1.1" 200 2244
+[11/Oct/2017 10:18:21] "GET /static/css/IMG_0666.jpg HTTP/1.1" 200 350653
+Not Found: /favicon.ico
+[11/Oct/2017 10:18:21] "GET /favicon.ico HTTP/1.1" 404 4184
+[11/Oct/2017 11:37:24] "GET / HTTP/1.1" 200 2385
+[11/Oct/2017 11:37:27] "POST /login/ HTTP/1.1" 200 5882
+[11/Oct/2017 11:37:28] "GET /add_resident HTTP/1.1" 301 0
+[11/Oct/2017 11:37:29] "GET /add_resident/ HTTP/1.1" 200 4352
+[11/Oct/2017 11:37:30] "GET /admin_visitors HTTP/1.1" 301 0
+[11/Oct/2017 11:37:30] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[11/Oct/2017 11:37:31] "GET /admin_visitors_access HTTP/1.1" 301 0
+[11/Oct/2017 11:37:31] "GET /admin_visitors_access/ HTTP/1.1" 200 6927
+[11/Oct/2017 11:37:32] "GET /blacklist HTTP/1.1" 301 0
+[11/Oct/2017 11:37:33] "GET /blacklist/ HTTP/1.1" 200 5820
+[11/Oct/2017 11:37:39] "GET / HTTP/1.1" 200 5882
+[11/Oct/2017 11:37:42] "GET /logout HTTP/1.1" 301 0
+[11/Oct/2017 11:37:42] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2017 11:37:42] "GET /login HTTP/1.1" 301 0
+[11/Oct/2017 11:37:43] "GET /login/ HTTP/1.1" 200 2385
+[11/Oct/2017 11:41:08] "POST /login/ HTTP/1.1" 200 5882
+[11/Oct/2017 11:41:10] "GET /admin_visitors_access/ HTTP/1.1" 200 6927
+[11/Oct/2017 11:41:11] "GET /display_all_logs HTTP/1.1" 301 0
+[11/Oct/2017 11:41:12] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[11/Oct/2017 11:41:16] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2017 11:41:17] "GET /login/ HTTP/1.1" 200 2385
+[11/Oct/2017 12:20:06] "GET /login/ HTTP/1.1" 200 2385
+[11/Oct/2017 12:20:08] "GET /static/css/style.css HTTP/1.1" 200 5323
+[11/Oct/2017 12:20:08] "GET /static/css/form.css HTTP/1.1" 200 2244
+[11/Oct/2017 12:30:43] "POST /login/ HTTP/1.1" 200 5882
+[11/Oct/2017 12:30:49] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2017 12:30:49] "GET /login/ HTTP/1.1" 200 2385
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[11/Oct/2017 13:32:34] "GET http://www.baidu.com/ HTTP/1.1" 400 60488
+[11/Oct/2017 13:45:15] "GET / HTTP/1.1" 200 2385
+[11/Oct/2017 13:45:17] "POST /login/ HTTP/1.1" 200 5882
+[11/Oct/2017 13:45:18] "GET /add_resident HTTP/1.1" 301 0
+[11/Oct/2017 13:45:18] "GET /add_resident/ HTTP/1.1" 200 4352
+[11/Oct/2017 13:45:19] "GET /admin_visitors_access/ HTTP/1.1" 200 6927
+[11/Oct/2017 13:45:20] "GET /admin_visitors HTTP/1.1" 301 0
+[11/Oct/2017 13:45:21] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[11/Oct/2017 13:45:26] "GET / HTTP/1.1" 200 5882
+[11/Oct/2017 13:45:29] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[11/Oct/2017 13:49:38] "GET /add_resident/ HTTP/1.1" 200 4352
+[11/Oct/2017 13:49:40] "GET /admin_visitors_access/ HTTP/1.1" 200 6927
+[11/Oct/2017 13:53:18] "GET / HTTP/1.1" 200 5882
+[11/Oct/2017 13:53:20] "GET /add_resident/ HTTP/1.1" 200 4355
+[11/Oct/2017 13:53:21] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[11/Oct/2017 13:53:23] "GET /admin_visitors_access/ HTTP/1.1" 200 6927
+[11/Oct/2017 13:53:24] "GET /blacklist HTTP/1.1" 301 0
+[11/Oct/2017 13:53:24] "GET /blacklist/ HTTP/1.1" 200 5820
+[11/Oct/2017 13:53:25] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[11/Oct/2017 13:53:27] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2017 13:53:27] "GET /login/ HTTP/1.1" 200 2385
+[11/Oct/2017 13:53:32] "POST /login/ HTTP/1.1" 200 4941
+[11/Oct/2017 13:53:33] "GET /display_resident_logs HTTP/1.1" 301 0
+[11/Oct/2017 13:53:34] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[11/Oct/2017 13:53:36] "GET /logout/ HTTP/1.1" 302 0
+[11/Oct/2017 13:53:36] "GET /login/ HTTP/1.1" 200 2385
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[11/Oct/2017 14:54:17] "GET http://www.baidu.com/ HTTP/1.1" 400 60488
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[11/Oct/2017 16:10:29] "GET http://www.baidu.com/ HTTP/1.1" 400 60488
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[11/Oct/2017 19:33:16] "GET http://www.baidu.com/ HTTP/1.1" 400 60488
+[11/Oct/2017 20:06:58] "GET / HTTP/1.1" 200 2385
+[12/Oct/2017 07:47:15] "GET / HTTP/1.1" 200 2385
+[12/Oct/2017 07:47:15] "GET /static/css/style.css HTTP/1.1" 304 0
+[12/Oct/2017 07:47:16] "GET /static/css/IMG_0666.jpg HTTP/1.1" 200 350653
+Not Found: /favicon.ico
+[12/Oct/2017 07:47:17] "GET /favicon.ico HTTP/1.1" 404 4184
+[12/Oct/2017 07:47:24] "POST /login/ HTTP/1.1" 200 5882
+[12/Oct/2017 07:47:27] "GET /add_resident HTTP/1.1" 301 0
+[12/Oct/2017 07:47:27] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 07:47:28] "GET /admin_visitors HTTP/1.1" 301 0
+[12/Oct/2017 07:47:29] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 07:47:30] "GET /admin_visitors_access HTTP/1.1" 301 0
+[12/Oct/2017 07:47:30] "GET /admin_visitors_access/ HTTP/1.1" 200 6927
+[12/Oct/2017 07:47:32] "GET /blacklist HTTP/1.1" 301 0
+[12/Oct/2017 07:47:32] "GET /blacklist/ HTTP/1.1" 200 5820
+[12/Oct/2017 07:47:35] "GET /display_all_logs HTTP/1.1" 301 0
+[12/Oct/2017 07:47:36] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[12/Oct/2017 07:47:41] "GET /logout HTTP/1.1" 301 0
+[12/Oct/2017 07:47:41] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 07:47:42] "GET /login HTTP/1.1" 301 0
+[12/Oct/2017 07:47:42] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 07:48:35] "GET / HTTP/1.1" 200 2385
+[12/Oct/2017 07:48:37] "GET /static/css/style.css HTTP/1.1" 200 5323
+[12/Oct/2017 07:48:37] "GET /static/css/form.css HTTP/1.1" 200 2244
+[12/Oct/2017 07:48:39] "GET /static/css/IMG_0666.jpg HTTP/1.1" 200 350653
+[12/Oct/2017 16:39:47] "GET / HTTP/1.1" 200 2385
+[12/Oct/2017 16:39:48] "GET /static/css/form.css HTTP/1.1" 304 0
+[12/Oct/2017 16:39:49] "POST /login/ HTTP/1.1" 200 5882
+[12/Oct/2017 16:39:53] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 16:39:58] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 16:39:58] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 16:40:39] "POST /login/ HTTP/1.1" 200 5882
+[12/Oct/2017 16:40:43] "GET /display_all_logs/ HTTP/1.1" 200 7385
+[12/Oct/2017 17:24:40] "GET / HTTP/1.1" 200 5882
+[12/Oct/2017 17:24:49] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 17:24:59] "GET / HTTP/1.1" 200 5882
+[12/Oct/2017 17:25:24] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 17:25:28] "GET / HTTP/1.1" 200 5882
+[12/Oct/2017 17:25:33] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 17:25:34] "GET / HTTP/1.1" 200 5882
+[12/Oct/2017 17:25:40] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 17:26:35] "POST /add_resident/ HTTP/1.1" 200 4403
+[12/Oct/2017 17:26:38] "GET / HTTP/1.1" 200 6263
+[12/Oct/2017 17:26:44] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 17:26:49] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 17:26:50] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 17:26:59] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 17:26:59] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 17:27:10] "POST /login/ HTTP/1.1" 200 4189
+[12/Oct/2017 17:27:26] "POST / HTTP/1.1" 200 4556
+[12/Oct/2017 17:27:38] "POST / HTTP/1.1" 200 4927
+[12/Oct/2017 17:27:40] "GET /display_resident_logs HTTP/1.1" 301 0
+[12/Oct/2017 17:27:40] "GET /display_resident_logs/ HTTP/1.1" 200 3198
+[12/Oct/2017 17:27:44] "GET / HTTP/1.1" 200 4927
+[12/Oct/2017 17:28:10] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 17:28:11] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 17:28:15] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 17:29:25] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 17:33:03] "POST /resident_access/ HTTP/1.1" 200 39
+[12/Oct/2017 17:35:19] "GET /admin_visitors_access/ HTTP/1.1" 200 7650
+[12/Oct/2017 17:35:20] "GET /display_all_logs/ HTTP/1.1" 200 7675
+[12/Oct/2017 17:35:53] "POST /display_all_logs/ HTTP/1.1" 200 5084
+[12/Oct/2017 17:36:03] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 17:52:18] "GET /display_all_logs/ HTTP/1.1" 200 7675
+[12/Oct/2017 17:52:18] "GET /static/css/form.css HTTP/1.1" 200 2244
+[12/Oct/2017 17:52:18] "GET /static/css/style.css HTTP/1.1" 200 5323
+[12/Oct/2017 17:52:20] "GET /static/css/IMG_0666.jpg HTTP/1.1" 200 350653
+[12/Oct/2017 17:52:22] "GET /admin_visitors/ HTTP/1.1" 200 6219
+Not Found: /favicon.ico
+[12/Oct/2017 17:52:24] "GET /favicon.ico HTTP/1.1" 404 4184
+Not Found: /favicon.ico
+[12/Oct/2017 17:52:24] "GET /favicon.ico HTTP/1.1" 404 4184
+[12/Oct/2017 17:52:55] "GET /admin_visitors_access HTTP/1.1" 301 0
+[12/Oct/2017 17:52:57] "GET /admin_visitors_access/ HTTP/1.1" 200 7650
+[12/Oct/2017 17:52:57] "GET /admin_visitors_access/ HTTP/1.1" 200 7650
+[12/Oct/2017 17:53:34] "POST /admin_visitors_access/ HTTP/1.1" 200 7288
+[12/Oct/2017 17:53:36] "GET /blacklist HTTP/1.1" 301 0
+[12/Oct/2017 17:53:37] "GET /blacklist/ HTTP/1.1" 200 5820
+[12/Oct/2017 17:53:40] "GET / HTTP/1.1" 200 6263
+[12/Oct/2017 17:53:41] "GET /display_all_logs HTTP/1.1" 301 0
+[12/Oct/2017 17:53:41] "GET /display_all_logs/ HTTP/1.1" 200 7675
+[12/Oct/2017 17:53:43] "GET /logout HTTP/1.1" 301 0
+[12/Oct/2017 17:53:45] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 17:53:46] "GET /login HTTP/1.1" 301 0
+[12/Oct/2017 17:53:47] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 17:53:52] "POST /login/ HTTP/1.1" 200 5310
+[12/Oct/2017 17:53:54] "GET /display_resident_logs HTTP/1.1" 301 0
+[12/Oct/2017 17:53:55] "GET /display_resident_logs/ HTTP/1.1" 200 4116
+[12/Oct/2017 17:53:58] "GET / HTTP/1.1" 200 5310
+[12/Oct/2017 17:54:02] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 17:54:02] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 17:54:09] "POST /login/ HTTP/1.1" 200 2408
+[12/Oct/2017 17:54:13] "POST /login/ HTTP/1.1" 200 3446
+[12/Oct/2017 17:54:14] "GET /display_visitor_logs HTTP/1.1" 301 0
+[12/Oct/2017 17:54:15] "GET /display_visitor_logs/ HTTP/1.1" 200 3502
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 10, 2017 - 17:13:33
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f08cb2d08c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 76
+    {"status": request.session['id'], "visitors_list": visitors_dict, 'message': message)
+                                                                                        ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f4550c248c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 76
+    {"status": request.session['id'], "visitors_list": visitors_dict, 'message': message,'room':room,'name':get_resident_name(id))
+                                                                                                                                 ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f77fd9a08c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7fb02b0658c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 77
+    {"status": request.session['id'], "visitors_list": visitors_dict, 'message': message,'wlcome':welcome)
+                                                                                                         ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f31c54218c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+[12/Oct/2017 18:04:48] "GET / HTTP/1.1" 200 3446
+[12/Oct/2017 18:04:51] "GET /display_visitor_logs/ HTTP/1.1" 200 3502
+[12/Oct/2017 18:04:52] "GET / HTTP/1.1" 200 3446
+[12/Oct/2017 18:04:53] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 18:04:54] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 18:04:59] "POST /login/ HTTP/1.1" 200 5010
+[12/Oct/2017 18:05:02] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[12/Oct/2017 18:05:03] "GET / HTTP/1.1" 200 5084
+[12/Oct/2017 18:06:01] "GET /display_all_logs/ HTTP/1.1" 200 2385
+[12/Oct/2017 18:06:04] "GET / HTTP/1.1" 200 5061
+[12/Oct/2017 18:06:08] "GET / HTTP/1.1" 200 5061
+[12/Oct/2017 18:06:10] "GET / HTTP/1.1" 200 5061
+[12/Oct/2017 18:07:04] "GET / HTTP/1.1" 200 5084
+[12/Oct/2017 18:07:44] "GET / HTTP/1.1" 200 5084
+[12/Oct/2017 18:07:49] "GET / HTTP/1.1" 200 5084
+[12/Oct/2017 18:08:16] "GET / HTTP/1.1" 200 5088
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:04:41
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[12/Oct/2017 18:08:33] "GET / HTTP/1.1" 200 5060
+[12/Oct/2017 18:09:22] "GET / HTTP/1.1" 200 5062
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:08:20
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[12/Oct/2017 18:09:42] "GET / HTTP/1.1" 200 5045
+[12/Oct/2017 18:10:17] "GET / HTTP/1.1" 200 5071
+[12/Oct/2017 18:10:21] "GET / HTTP/1.1" 200 5085
+[12/Oct/2017 18:10:34] "GET / HTTP/1.1" 200 5085
+[12/Oct/2017 18:11:11] "GET / HTTP/1.1" 200 5085
+[12/Oct/2017 18:11:15] "GET / HTTP/1.1" 200 5105
+[12/Oct/2017 18:11:37] "GET / HTTP/1.1" 200 5105
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:09:24
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[12/Oct/2017 18:11:42] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 18:11:45] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 18:12:06] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 18:12:10] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 18:12:12] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[12/Oct/2017 18:12:13] "GET / HTTP/1.1" 200 5089
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:11:39
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f9f462898c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:19:37
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:21:23
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f24a77408c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 425
+    if results[0]['response'] == 'success':
+                                          ^
+SyntaxError: invalid syntax
+[12/Oct/2017 18:25:02] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 18:25:02] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 18:25:06] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 18:25:09] "GET /blacklist/ HTTP/1.1" 200 5820
+[12/Oct/2017 18:25:16] "GET /admin_visitors HTTP/1.1" 301 0
+[12/Oct/2017 18:25:16] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 18:25:17] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+Internal Server Error: /visitor_access/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 424, in visitor_access
+    os.system(SMS_SEQUERITY.format(id,room))
+NameError: global name 'SMS_SEQUERITY' is not defined
+[12/Oct/2017 18:26:03] "POST /visitor_access/ HTTP/1.1" 500 64605
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:23:47
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   408  100   259  100   149    571    328 --:--:-- --:--:-- --:--:--   570
+{
+    "message-count": "1",
+    "messages": [{
+        "to": "972538303783",
+        "message-id": "0B0000008C2F15BB",
+        "status": "0",
+        "remaining-balance": "1.84960000",
+        "message-price": "0.01880000",
+        "network": "42507"
+    }]
+}[12/Oct/2017 18:27:06] "POST /visitor_access/ HTTP/1.1" 200 61
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:27:05
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f553de6c8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   436  100   259  100   177   1024    700 --:--:-- --:--:-- --:--:--  1027
+{
+    "message-count": "1",
+    "messages": [{
+        "to": "972538303783",
+        "message-id": "0B0000008C2F3E41",
+        "status": "0",
+        "remaining-balance": "1.83080000",
+        "message-price": "0.01880000",
+        "network": "42507"
+    }]
+}[12/Oct/2017 18:29:22] "POST /visitor_access/ HTTP/1.1" 200 61
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:29:20
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:30:53
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:31:56
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f32a29de8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f1fdd7828c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 429
+    os.system(RSEIDENT_SMS.format(id,get_visitor_name(id)[0])
+    ^
+IndentationError: unexpected indent
+Unhandled exception in thread started by <function wrapper at 0x7ff21d8738c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7ff0a0a008c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 429
+    os.system(RSEIDENT_SMS.format(id,get_visitor_name(id)[0]))
+    ^
+IndentationError: unexpected indent
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   436  100   259  100   177   1177    804 --:--:-- --:--:-- --:--:--  1177
+{
+    "message-count": "1",
+    "messages": [{
+        "to": "972538303783",
+        "message-id": "0D0000005DF9BD5A",
+        "status": "0",
+        "remaining-balance": "1.81200000",
+        "message-price": "0.01880000",
+        "network": "42507"
+    }]
+}[12/Oct/2017 18:36:13] "POST /visitor_access/ HTTP/1.1" 200 61
+[12/Oct/2017 18:37:26] "GET /add_resident HTTP/1.1" 301 0
+[12/Oct/2017 18:37:26] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 18:37:28] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 18:37:29] "GET / HTTP/1.1" 200 6263
+[12/Oct/2017 18:37:35] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 18:37:35] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 18:37:42] "POST /login/ HTTP/1.1" 200 5033
+sh: 1: -X: not found
+[12/Oct/2017 18:38:15] "POST /visitor_access/ HTTP/1.1" 200 39
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:36:12
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:39:09
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f1ee77638c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+sh: 1: -X: not found
+[12/Oct/2017 18:47:35] "POST /visitor_access/ HTTP/1.1" 200 39
+[12/Oct/2017 18:48:36] "GET /login/ HTTP/1.1" 302 0
+[12/Oct/2017 18:48:36] "GET / HTTP/1.1" 200 5077
+[12/Oct/2017 18:48:38] "GET /display_resident_logs/ HTTP/1.1" 200 4114
+[12/Oct/2017 18:48:46] "GET / HTTP/1.1" 200 5077
+[12/Oct/2017 18:48:48] "GET /display_resident_logs/ HTTP/1.1" 200 4114
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:47:06
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+sh: 1: -X: not found
+[12/Oct/2017 18:49:45] "POST /visitor_access/ HTTP/1.1" 200 39
+[12/Oct/2017 18:50:57] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/Oct/2017 18:50:58] "GET / HTTP/1.1" 200 5077
+[12/Oct/2017 18:51:00] "GET / HTTP/1.1" 200 5077
+[12/Oct/2017 18:51:01] "GET /display_resident_logs/ HTTP/1.1" 200 4418
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   411  100   259  100   152    580    340 --:--:-- --:--:-- --:--:--   580
+{
+    "message-count": "1",
+    "messages": [{
+        "to": "972523972339",
+        "message-id": "0D0000005DFAB32F",
+        "status": "0",
+        "remaining-balance": "1.79320000",
+        "message-price": "0.01880000",
+        "network": "42502"
+    }]
+}[12/Oct/2017 18:55:33] "POST /visitor_access/ HTTP/1.1" 200 39
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:55:26
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+curl -X POST  https://rest.nexmo.com/sms/json -d api_key=df746649 -d api_secret=1d240f5535b42132 -d to=972523972339 -d from="DORMS ACCESS MANAGER" -d text="VISITOR ID: 202010022
+NAME: Idan Rubin
+,ARRIVED TO VISIT YOU"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   411  100   259  100   152   1063    624 --:--:-- --:--:-- --:--:--  1061
+{
+    "message-count": "1",
+    "messages": [{
+        "to": "972523972339",
+        "message-id": "0D0000005DFACB4D",
+        "status": "0",
+        "remaining-balance": "1.77440000",
+        "message-price": "0.01880000",
+        "network": "42502"
+    }]
+}[12/Oct/2017 18:56:53] "POST /visitor_access/ HTTP/1.1" 200 39
+[12/Oct/2017 18:57:14] "GET /display_resident_logs/ HTTP/1.1" 200 5634
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 18:56:49
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[12/Oct/2017 19:08:02] "GET / HTTP/1.1" 200 5077
+[12/Oct/2017 19:08:06] "GET /display_resident_logs/ HTTP/1.1" 200 3810
+[12/Oct/2017 19:08:09] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 19:08:09] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 19:08:18] "POST /login/ HTTP/1.1" 200 3878
+[12/Oct/2017 19:08:35] "GET /display_visitor_logs/ HTTP/1.1" 200 4108
+[12/Oct/2017 19:08:47] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 19:08:47] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 19:08:53] "POST /login/ HTTP/1.1" 200 5047
+[12/Oct/2017 19:08:56] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 19:09:00] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[12/Oct/2017 19:09:02] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 19:09:06] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[12/Oct/2017 19:09:15] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 19:09:16] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 19:09:20] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 19:09:33] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 19:09:37] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 19:09:53] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[12/Oct/2017 19:10:04] "GET /blacklist/ HTTP/1.1" 200 5820
+[12/Oct/2017 19:10:12] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[12/Oct/2017 19:10:19] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 19:10:19] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 19:59:56] "GET / HTTP/1.1" 200 2385
+[12/Oct/2017 20:00:17] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 20:00:32] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 20:00:34] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 20:01:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 861, in emit
+    msg = self.format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 734, in format
+    return fmt.format(record)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/log.py", line 192, in format
+    return super(ServerFormatter, self).format(record)
+  File "/usr/lib/python2.7/logging/__init__.py", line 476, in format
+    raise e
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 6: ordinal not in range(128)
+Logged from file basehttp.py, line 124
+[12/Oct/2017 20:05:31] "GET / HTTP/1.1" 200 6263
+[12/Oct/2017 20:05:33] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 20:05:33] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 20:21:19] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 20:21:22] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[12/Oct/2017 20:21:25] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 20:21:26] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 20:21:30] "POST /login/ HTTP/1.1" 200 5047
+[12/Oct/2017 20:21:35] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[12/Oct/2017 20:21:36] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 20:21:38] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 20:21:58] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[12/Oct/2017 20:22:03] "GET / HTTP/1.1" 200 5089
+[12/Oct/2017 20:23:38] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 20:23:38] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 20:23:41] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 20:23:43] "GET /add_resident/ HTTP/1.1" 200 4355
+[12/Oct/2017 20:23:45] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[12/Oct/2017 20:23:47] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 20:23:48] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 20:23:50] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 20:23:52] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[12/Oct/2017 20:23:54] "GET /blacklist/ HTTP/1.1" 200 5820
+[12/Oct/2017 20:23:58] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[12/Oct/2017 20:25:00] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 20:25:00] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 20:25:02] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 20:37:00] "GET / HTTP/1.1" 200 6263
+Not Found: /favicon.ico
+[12/Oct/2017 20:37:01] "GET /favicon.ico HTTP/1.1" 404 4184
+[12/Oct/2017 20:37:08] "GET /logout/ HTTP/1.1" 302 0
+[12/Oct/2017 20:37:09] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 21:06:32] "GET /login/ HTTP/1.1" 200 2385
+[12/Oct/2017 21:06:34] "POST /login/ HTTP/1.1" 200 6263
+[12/Oct/2017 21:06:37] "GET /blacklist/ HTTP/1.1" 200 5820
+[12/Oct/2017 21:06:39] "GET /display_all_logs/ HTTP/1.1" 200 7961
+Not Found: /robots.txt
+[12/Oct/2017 22:02:52] "GET /robots.txt HTTP/1.1" 404 4181
+[12/Oct/2017 22:02:56] "GET / HTTP/1.1" 200 2385
+Not Found: /robots.txt
+[13/Oct/2017 00:34:53] "GET /robots.txt HTTP/1.1" 404 4181
+[13/Oct/2017 00:34:57] "GET /signup/ HTTP/1.1" 200 2408
+[13/Oct/2017 00:34:59] "GET /static/css/style.css HTTP/1.1" 304 0
+[13/Oct/2017 00:35:00] "GET /static/css/form.css HTTP/1.1" 200 2244
+[13/Oct/2017 02:15:43] code 400, message Bad request syntax ('\x16\x03\x01\x00\xf2\x01\x00\x00\xee\x03\x03Y\xe0!\xcf\xf4\xe4\x94\xbb.\x11\xdd\xa2\x15\xca\xf1v\xe4\x10\xb3g\xa7O\x1b7\xb2\x04\xca\x88\xfd\xf8\xe9P\x00\x00\x84\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0')
+[13/Oct/2017 02:15:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /a2billing/admin/Public/index.php
+[13/Oct/2017 02:15:44] "GET /a2billing/admin/Public/index.php HTTP/1.1" 404 4213
+Internal Server Error: /login_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 402, in login_mobile
+    valid = validate_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 27, in validate_user
+    id = data["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[13/Oct/2017 02:38:44] "GET /login_mobile/ HTTP/1.1" 500 71329
+Internal Server Error: /login_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 402, in login_mobile
+    valid = validate_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 27, in validate_user
+    id = data["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[13/Oct/2017 06:21:55] "GET /login_mobile/ HTTP/1.1" 500 71330
+Not Found: /robots.txt
+[13/Oct/2017 09:36:28] "GET /robots.txt HTTP/1.1" 404 4181
+[13/Oct/2017 09:36:32] "GET /signup/ HTTP/1.1" 200 2408
+Not Found: /add_access/
+[13/Oct/2017 14:02:22] "GET /add_access/ HTTP/1.1" 404 4184
+[13/Oct/2017 16:45:12] "GET / HTTP/1.1" 200 6263
+[13/Oct/2017 16:45:12] "GET /static/css/style.css HTTP/1.1" 304 0
+[13/Oct/2017 16:45:19] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 16:45:27] "GET /logout/ HTTP/1.1" 302 0
+[13/Oct/2017 16:45:27] "GET /login/ HTTP/1.1" 200 2385
+[13/Oct/2017 17:38:15] "GET / HTTP/1.1" 200 2385
+[13/Oct/2017 17:38:17] "POST /login/ HTTP/1.1" 200 6263
+[13/Oct/2017 17:38:24] "GET /add_resident/ HTTP/1.1" 200 4355
+[13/Oct/2017 17:38:25] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 17:38:40] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:38:43] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 17:38:45] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 17:38:48] "GET / HTTP/1.1" 200 6263
+[13/Oct/2017 17:38:52] "GET /add_resident/ HTTP/1.1" 200 4355
+[13/Oct/2017 17:38:53] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 17:38:55] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:38:56] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 17:38:58] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 17:39:05] "GET / HTTP/1.1" 200 6263
+[13/Oct/2017 17:39:18] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 17:39:29] "GET / HTTP/1.1" 200 6263
+[13/Oct/2017 17:39:55] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 17:40:01] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 17:40:02] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:40:10] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 17:40:12] "GET /add_resident/ HTTP/1.1" 200 4355
+[13/Oct/2017 17:40:14] "GET / HTTP/1.1" 200 6263
+[13/Oct/2017 17:41:52] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 17:41:54] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 17:41:55] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 17:41:58] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 17:41:59] "GET / HTTP/1.1" 200 6263
+[13/Oct/2017 17:42:01] "GET /add_resident/ HTTP/1.1" 200 4355
+[13/Oct/2017 17:42:02] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 17:42:04] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:42:06] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 17:42:07] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 17:42:08] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 17:42:09] "GET /add_resident/ HTTP/1.1" 200 4355
+[13/Oct/2017 17:42:11] "GET / HTTP/1.1" 200 6263
+[13/Oct/2017 17:42:12] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 17:42:13] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 17:42:14] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:42:14] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:42:14] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:42:14] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 17:42:16] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 19:23:35] "GET / HTTP/1.1" 200 6263
+Not Found: /favicon.ico
+[13/Oct/2017 19:23:36] "GET /favicon.ico HTTP/1.1" 404 4184
+[13/Oct/2017 19:23:38] "GET /logout/ HTTP/1.1" 302 0
+[13/Oct/2017 19:23:38] "GET /login/ HTTP/1.1" 200 2385
+[13/Oct/2017 19:23:41] "POST /login/ HTTP/1.1" 200 6263
+[13/Oct/2017 19:23:43] "GET /add_resident/ HTTP/1.1" 200 4355
+[13/Oct/2017 19:23:45] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[13/Oct/2017 19:23:50] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[13/Oct/2017 19:23:54] "GET /blacklist/ HTTP/1.1" 200 5820
+[13/Oct/2017 19:23:57] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[13/Oct/2017 21:35:18] "GET / HTTP/1.1" 200 2385
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[13/Oct/2017 23:27:17] "GET http://www.baidu.com/ HTTP/1.1" 400 60488
+[14/Oct/2017 02:19:31] "GET / HTTP/1.1" 200 2385
+Not Found: /favicon.ico
+[14/Oct/2017 02:19:39] "GET /favicon.ico HTTP/1.1" 404 4150
+[14/Oct/2017 07:23:44] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 07:23:44] "GET /static/css/form.css HTTP/1.1" 304 0
+[14/Oct/2017 07:23:44] "GET /static/css/style.css HTTP/1.1" 304 0
+[14/Oct/2017 07:23:45] "GET /static/css/IMG_0666.jpg HTTP/1.1" 304 0
+[14/Oct/2017 07:23:55] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 07:24:02] "GET /add_resident/ HTTP/1.1" 200 4355
+[14/Oct/2017 07:24:04] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 07:24:06] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[14/Oct/2017 07:24:09] "GET /blacklist/ HTTP/1.1" 200 5820
+[14/Oct/2017 07:24:10] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[14/Oct/2017 07:24:59] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 07:31:29] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 07:31:33] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 07:31:34] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 12:21:53] "GET /display_all_logs/ HTTP/1.1" 200 2385
+[14/Oct/2017 15:11:19] "GET / HTTP/1.1" 200 2385
+[14/Oct/2017 15:11:21] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 15:11:22] "GET /add_resident/ HTTP/1.1" 200 4355
+[14/Oct/2017 15:11:23] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 15:11:24] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[14/Oct/2017 15:11:25] "GET /blacklist/ HTTP/1.1" 200 5820
+[14/Oct/2017 15:11:28] "GET /display_all_logs/ HTTP/1.1" 200 7961
+[14/Oct/2017 15:11:42] "POST /display_all_logs/ HTTP/1.1" 200 5370
+[14/Oct/2017 15:12:06] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 15:12:06] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 15:12:10] "POST /login/ HTTP/1.1" 200 5047
+[14/Oct/2017 15:12:13] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[14/Oct/2017 15:12:15] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:12:18] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 15:12:18] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 15:20:10] "POST /login/ HTTP/1.1" 200 5047
+[14/Oct/2017 15:24:06] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:24:08] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[14/Oct/2017 15:24:10] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:24:13] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 15:24:14] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 15:24:18] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 15:24:20] "GET /blacklist/ HTTP/1.1" 200 5820
+[14/Oct/2017 15:24:23] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[14/Oct/2017 15:24:23] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 15:24:24] "GET /add_resident/ HTTP/1.1" 200 4355
+[14/Oct/2017 15:24:26] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 15:24:26] "GET /login/ HTTP/1.1" 200 2385
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 101, in login
+    if str(request.POST['id']).startswith('admin'):
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-4: ordinal not in range(128)
+[14/Oct/2017 15:24:30] "POST /login/ HTTP/1.1" 500 69185
+[14/Oct/2017 15:24:45] "POST /login/ HTTP/1.1" 200 2408
+[14/Oct/2017 15:24:52] "POST /login/ HTTP/1.1" 200 2408
+[14/Oct/2017 15:24:55] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 15:25:09] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 15:25:09] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 15:25:25] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 15:25:29] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 15:25:29] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 15:25:33] "POST /login/ HTTP/1.1" 200 5047
+[14/Oct/2017 15:25:39] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:25:40] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:25:42] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[14/Oct/2017 15:25:44] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[14/Oct/2017 15:25:46] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:26:22] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 15:26:22] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 15:26:26] "POST /login/ HTTP/1.1" 200 5047
+[14/Oct/2017 15:26:28] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[14/Oct/2017 15:26:30] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:28:57] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 15:37:38] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:42:33] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[14/Oct/2017 15:42:35] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 15:44:04] "GET /display_resident_logs/ HTTP/1.1" 200 4727
+[14/Oct/2017 16:04:46] "GET / HTTP/1.1" 200 5089
+[14/Oct/2017 16:04:48] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 16:04:50] "GET /login/ HTTP/1.1" 200 2385
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 19:01:00
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7efd40a398c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7ff2331a28c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f88041518c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 466
+    date = datetime.da te.today()
+                        ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f6ae0b4a8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f21208a18c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 466
+    date = datetime.da te.today()
+                        ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7f99b46e38c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 483
+    results = [{'name': user_id}]
+                                ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7f0e235118c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 483
+    results = [{'name': user_id},]
+                                 ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7fea68a888c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f340e4468c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 483
+    results = [{'name': user_name}]
+                                  ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7f64777518c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 483
+    results = [{'name': user_name }]
+                                   ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7f4cd85538c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f67bab6c8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 484
+    results = [{'name': user_name }]
+                                   ^
+IndentationError: unindent does not match any outer indentation level
+[14/Oct/2017 16:30:39] "GET / HTTP/1.1" 200 2385
+[14/Oct/2017 16:30:49] "POST /get_name_mobile/ HTTP/1.1" 200 27
+[14/Oct/2017 16:30:50] "POST /resident_access/ HTTP/1.1" 200 39
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 16:29:51
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fc50127e8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Unhandled exception in thread started by <function wrapper at 0x7f5134c2e8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 17, in <module>
+    from mobapp.views import *
+  File "/home/audais/dormsAccess/mobapp/views.py", line 425
+    return HttpResponse(status=404,res, mimetype)
+SyntaxError: non-keyword arg after keyword arg
+[14/Oct/2017 16:38:45] "GET /login/ HTTP/1.1" 200 2385
+Internal Server Error: /visitor_access/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 413, in visitor_access
+    valid = validate_visitor_access(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 149, in validate_visitor_access
+    room = data["room"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'room'"
+[14/Oct/2017 16:45:02] "POST /visitor_access/ HTTP/1.1" 500 71051
+[14/Oct/2017 16:46:24] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 16:46:28] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 16:56:31] "GET /login/ HTTP/1.1" 302 0
+[14/Oct/2017 16:56:32] "GET / HTTP/1.1" 200 6263
+Not Found: /favicon.ico
+[14/Oct/2017 16:56:36] "GET /favicon.ico HTTP/1.1" 404 4326
+[14/Oct/2017 16:56:37] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 16:56:38] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 17:43:31] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 17:43:34] "GET /add_resident/ HTTP/1.1" 200 4355
+[14/Oct/2017 17:43:45] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 17:43:47] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 17:43:47] "GET /login/ HTTP/1.1" 200 2385
+Not Found: /login_mobile/
+[14/Oct/2017 17:45:10] "POST /login_mobile/ HTTP/1.1" 404 0
+Not Found: /login_mobile/
+[14/Oct/2017 17:45:44] "POST /login_mobile/ HTTP/1.0" 404 0
+[14/Oct/2017 17:45:59] "POST /login_mobile/ HTTP/1.0" 200 47
+Internal Server Error: /login_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 402, in login_mobile
+    valid = validate_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 28, in validate_user
+    password = data["password"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'password'"
+[14/Oct/2017 17:46:00] "POST /login_mobile/ HTTP/1.0" 500 70204
+[14/Oct/2017 17:46:15] "GET /signup/ HTTP/1.1" 200 2408
+[14/Oct/2017 17:46:27] "POST /signup/ HTTP/1.1" 200 2426
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 463, in signup_mobile
+    if results['response'] == 'success':
+TypeError: list indices must be integers, not str
+[14/Oct/2017 17:47:30] "POST /signup_mobile/ HTTP/1.0" 500 63315
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 463, in signup_mobile
+    if results['response'] == 'success':
+TypeError: list indices must be integers, not str
+[14/Oct/2017 17:50:36] "POST /signup_mobile/ HTTP/1.1" 500 63732
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 16:38:31
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7fda2047f8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 465, in signup_mobile
+    if results['response'] == 'success':
+TypeError: list indices must be integers, not str
+[14/Oct/2017 17:52:00] "POST /signup_mobile/ HTTP/1.1" 500 63668
+[14/Oct/2017 17:52:03] "POST /login_mobile/ HTTP/1.1" 200 47
+Internal Server Error: /login_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 402, in login_mobile
+    valid = validate_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 28, in validate_user
+    password = data["password"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'password'"
+[14/Oct/2017 17:52:04] "POST /login_mobile/ HTTP/1.0" 500 70204
+[14/Oct/2017 17:53:50] "POST /login_mobile/ HTTP/1.1" 200 47
+Internal Server Error: /login_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 402, in login_mobile
+    valid = validate_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 28, in validate_user
+    password = data["password"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'password'"
+[14/Oct/2017 17:53:52] "POST /login_mobile/ HTTP/1.0" 500 70204
+Not Found: /login_mobile/
+[14/Oct/2017 17:54:01] "POST /login_mobile/ HTTP/1.0" 404 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 17:51:55
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+<QueryDict: {u'password': [u'123545'], u'id': [u'111222333'], u'name': [u' DUUU']}>
+False
+Unhandled exception in thread started by <function wrapper at 0x7f93df88f8c0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/audais/dormsAccess/urls.py", line 20, in <module>
+    url(r'^$',index,name='index'),
+NameError: name 'index' is not defined
+[14/Oct/2017 17:55:19] "POST /signup_mobile/ HTTP/1.1" 200 52
+[14/Oct/2017 17:55:41] "GET /signup/ HTTP/1.1" 200 2408
+[14/Oct/2017 17:55:44] "POST /signup_mobile/ HTTP/1.0" 200 52
+[14/Oct/2017 17:55:48] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 17:55:48] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 17:55:51] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 17:56:02] "POST /signup_mobile/ HTTP/1.1" 200 52
+[14/Oct/2017 17:56:06] "POST /signup_mobile/ HTTP/1.0" 200 39
+[14/Oct/2017 17:56:12] "POST /signup_mobile/ HTTP/1.1" 200 39
+[14/Oct/2017 17:56:25] "GET /admin_visitors/ HTTP/1.1" 200 7663
+[14/Oct/2017 17:56:40] "POST /signup_mobile/ HTTP/1.0" 200 39
+[14/Oct/2017 17:56:45] "POST /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:56:46] "GET /display_all_logs/ HTTP/1.1" 200 8250
+[14/Oct/2017 17:56:55] "GET /admin_visitors/ HTTP/1.1" 200 6219
+Not Found: /login_mobile/
+[14/Oct/2017 17:56:56] "POST /login_mobile/ HTTP/1.0" 404 0
+[14/Oct/2017 17:56:58] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:56:59] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:02] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:02] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:02] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:04] "GET /admin_visitors/ HTTP/1.1" 200 6219
+Not Found: /login_mobile/
+[14/Oct/2017 17:57:14] "POST /login_mobile/ HTTP/1.0" 404 0
+[14/Oct/2017 17:57:16] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:19] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:20] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[14/Oct/2017 17:57:25] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:27] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 17:57:27] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 17:57:29] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 17:57:30] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:32] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:34] "GET /add_resident/ HTTP/1.1" 200 4355
+[14/Oct/2017 17:57:35] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:36] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[14/Oct/2017 17:57:39] "GET /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:44] "POST /admin_visitors/ HTTP/1.1" 200 6219
+[14/Oct/2017 17:57:46] "POST /admin_visitors/ HTTP/1.1" 200 6219
+Not Found: /login_mobile/
+[14/Oct/2017 17:57:48] "POST /login_mobile/ HTTP/1.0" 404 0
+Not Found: /login_mobile/
+[14/Oct/2017 17:57:51] "POST /login_mobile/ HTTP/1.0" 404 0
+[14/Oct/2017 17:58:19] "POST /signup_mobile/ HTTP/1.0" 200 39
+[14/Oct/2017 17:58:24] "GET /admin_visitors/ HTTP/1.1" 200 6582
+[14/Oct/2017 17:58:32] "POST /signup_mobile/ HTTP/1.0" 200 52
+[14/Oct/2017 17:58:43] "POST /login_mobile/ HTTP/1.0" 200 46
+Not Found: /login_mobile/
+[14/Oct/2017 18:01:26] "POST /login_mobile/ HTTP/1.1" 404 0
+[14/Oct/2017 18:01:34] "POST /login_mobile/ HTTP/1.0" 200 47
+Internal Server Error: /login_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 402, in login_mobile
+    valid = validate_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 28, in validate_user
+    password = data["password"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'password'"
+[14/Oct/2017 18:01:35] "POST /login_mobile/ HTTP/1.0" 500 70204
+Internal Server Error: /get_name_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 472, in get_name_mobile
+    user_id = data['id']
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:02:26] "GET /get_name_mobile/ HTTP/1.1" 500 66669
+[14/Oct/2017 18:03:25] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:03:25] "POST /get_name_mobile/ HTTP/1.0" 200 20
+[14/Oct/2017 18:05:06] "GET /add_resident/ HTTP/1.1" 200 4355
+[14/Oct/2017 18:05:07] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 18:05:46] "POST /get_name_mobile/ HTTP/1.1" 200 24
+[14/Oct/2017 18:07:38] "POST /login_mobile/ HTTP/1.1" 200 46
+[14/Oct/2017 18:07:39] "POST /get_name_mobile/ HTTP/1.0" 200 20
+[14/Oct/2017 18:08:56] "GET /display_all_logs/ HTTP/1.1" 200 8250
+[14/Oct/2017 18:09:02] "GET /blacklist/ HTTP/1.1" 200 5820
+[14/Oct/2017 18:09:19] "POST /login_mobile/ HTTP/1.1" 200 46
+[14/Oct/2017 18:09:19] "POST /get_name_mobile/ HTTP/1.0" 200 20
+Not Found: /login_mobile/
+[14/Oct/2017 18:11:18] "POST /login_mobile/ HTTP/1.1" 404 0
+Not Found: /login_mobile/
+[14/Oct/2017 18:11:27] "POST /login_mobile/ HTTP/1.0" 404 0
+[14/Oct/2017 18:11:35] "POST /login_mobile/ HTTP/1.0" 200 46
+[14/Oct/2017 18:11:36] "POST /get_name_mobile/ HTTP/1.0" 200 20
+[14/Oct/2017 18:12:26] "POST /login_mobile/ HTTP/1.0" 200 46
+[14/Oct/2017 18:12:27] "POST /get_name_mobile/ HTTP/1.0" 200 20
+[14/Oct/2017 18:13:10] "POST /login_mobile/ HTTP/1.0" 200 47
+[14/Oct/2017 18:13:11] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:14:14] "GET /login/ HTTP/1.1" 302 0
+Internal Server Error: /get_name_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 472, in get_name_mobile
+    user_id = data['id']
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:14:40] "GET /get_name_mobile/ HTTP/1.1" 500 66894
+Not Found: /favicon.ico
+[14/Oct/2017 18:14:41] "GET /favicon.ico HTTP/1.1" 404 4292
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 457, in signup_mobile
+    valid = validate_new_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 123, in validate_new_user
+    id = user["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:15:01] "GET /signup_mobile/?method=post&id=1234567788&name=fdgdfgfdg&password=445566 HTTP/1.1" 500 71718
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 457, in signup_mobile
+    valid = validate_new_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 123, in validate_new_user
+    id = user["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:15:14] "GET /signup_mobile/?method=post&id=123456778&name=fdgdfgfdg&password=445566 HTTP/1.1" 500 71710
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 457, in signup_mobile
+    valid = validate_new_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 123, in validate_new_user
+    id = user["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:15:17] "GET /signup_mobile/?method=post&id=123456778&name=fdgdfgfdg&password=445566 HTTP/1.1" 500 71845
+[14/Oct/2017 18:15:46] "GET /signup_mobile?method=post&id=123456778&name=fdgdfgfdg&password=445566 HTTP/1.1" 301 0
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 457, in signup_mobile
+    valid = validate_new_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 123, in validate_new_user
+    id = user["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:15:47] "GET /signup_mobile/?method=post&id=123456778&name=fdgdfgfdg&password=445566 HTTP/1.1" 500 71710
+[14/Oct/2017 18:15:55] "POST /login_mobile/ HTTP/1.1" 200 46
+[14/Oct/2017 18:15:56] "POST /get_name_mobile/ HTTP/1.0" 200 20
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 457, in signup_mobile
+    valid = validate_new_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 123, in validate_new_user
+    id = user["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:16:16] "GET /signup_mobile/?method=post&id=123456778&name=fdgdfgfdg&password=445566 HTTP/1.1" 500 71710
+[14/Oct/2017 18:16:17] "POST /login_mobile/ HTTP/1.0" 200 47
+[14/Oct/2017 18:16:18] "POST /get_name_mobile/ HTTP/1.0" 200 24
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 457, in signup_mobile
+    valid = validate_new_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 123, in validate_new_user
+    id = user["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:16:33] "GET /signup_mobile/?method=post&id=126456778&name=fdgdfgfdg&password=445566 HTTP/1.1" 500 71710
+Not Found: /login_mobile/
+[14/Oct/2017 18:16:58] "POST /login_mobile/ HTTP/1.1" 404 0
+[14/Oct/2017 18:17:08] "POST /login_mobile/ HTTP/1.0" 200 46
+[14/Oct/2017 18:17:09] "POST /get_name_mobile/ HTTP/1.0" 200 20
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 17:55:18
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+<QueryDict: {u'password': [u'123545'], u'id': [u'111222333'], u'name': [u' DUUU']}>
+False
+<QueryDict: {u'password': [u'123'], u'id': [u'987654321'], u'name': [u'abc']}>
+False
+<QueryDict: {u'password': [u'123545'], u'id': [u'111222333'], u'name': [u' DUUU']}>
+False
+<QueryDict: {u'password': [u'123'], u'id': [u'987585855'], u'name': [u'abc']}>
+True
+<QueryDict: {u'password': [u'123545'], u'id': [u'111222336'], u'name': [u' DUUU']}>
+True
+<QueryDict: {u'password': [u'123456'], u'id': [u'311480875'], u'name': [u'Hamdan']}>
+True
+<QueryDict: {u'password': [u'123456'], u'id': [u'311480875'], u'name': [u'Hamdan']}>
+True
+<QueryDict: {u'password': [u'123456'], u'id': [u'311480875'], u'name': [u'Hamdan']}>
+False
+Internal Server Error: /signup_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 458, in signup_mobile
+    valid = validate_new_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 123, in validate_new_user
+    id = user["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:17:49] "GET /signup_mobile/?method=post&id=126456778&name=fdgdfgfdg&password=445566 HTTP/1.1" 500 71825
+[14/Oct/2017 18:21:24] "POST /login_mobile/ HTTP/1.1" 200 46
+[14/Oct/2017 18:21:25] "POST /get_name_mobile/ HTTP/1.0" 200 20
+[14/Oct/2017 18:21:39] "POST /login_mobile/ HTTP/1.0" 200 47
+[14/Oct/2017 18:21:41] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:23:43] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:23:44] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:24:19] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 18:24:22] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 18:24:22] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 18:24:25] "POST /login/ HTTP/1.1" 200 2408
+Internal Server Error: /login_mobile/
+Traceback (most recent call last):
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/audais/.local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/audais/dormsAccess/mobapp/views.py", line 402, in login_mobile
+    valid = validate_user(data)
+  File "/home/audais/dormsAccess/mobapp/query_handler.py", line 27, in validate_user
+    id = data["id"]
+  File "/home/audais/.local/lib/python2.7/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'id'"
+[14/Oct/2017 18:24:47] "GET /login_mobile/ HTTP/1.1" 500 70632
+Not Found: /login_mobile/
+[14/Oct/2017 18:25:19] "POST /login_mobile/ HTTP/1.1" 404 0
+[14/Oct/2017 18:26:16] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:26:17] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:27:08] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:27:09] "POST /get_name_mobile/ HTTP/1.0" 200 24
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 18:17:46
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+<QueryDict: {}>
+[14/Oct/2017 18:27:15] "POST /login_mobile/ HTTP/1.1" 200 38
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 18:27:12
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[14/Oct/2017 18:31:17] "POST /login_mobile/ HTTP/1.1" 200 25
+[14/Oct/2017 18:31:25] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:31:45] "POST /login/ HTTP/1.1" 200 6263
+[14/Oct/2017 18:32:05] "GET /admin_visitors/ HTTP/1.1" 200 6582
+[14/Oct/2017 18:32:25] "POST /login_mobile/ HTTP/1.0" 200 25
+[14/Oct/2017 18:32:26] "POST /get_name_mobile/ HTTP/1.0" 200 24
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 18:27:37
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Not Found: /login_mobile/
+[14/Oct/2017 18:34:16] "POST /login_mobile/ HTTP/1.1" 404 0
+[14/Oct/2017 18:34:25] "POST /login_mobile/ HTTP/1.0" 200 47
+[14/Oct/2017 18:34:26] "POST /get_name_mobile/ HTTP/1.0" 200 24
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 14, 2017 - 18:33:19
+Django version 1.11.5, using settings 'mobapp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[14/Oct/2017 18:39:15] "GET /admin_visitors_access/ HTTP/1.1" 200 7288
+[14/Oct/2017 18:39:21] "GET / HTTP/1.1" 200 6263
+[14/Oct/2017 18:39:25] "GET /admin_visitors/ HTTP/1.1" 200 6582
+[14/Oct/2017 18:39:56] "POST /login_mobile/ HTTP/1.1" 200 24
+[14/Oct/2017 18:40:08] "POST /login_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:40:20] "POST /login_mobile/ HTTP/1.0" 200 47
+[14/Oct/2017 18:40:21] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:45:03] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:45:04] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:48:18] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:48:19] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:50:33] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:50:34] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:52:47] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:52:49] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 18:55:09] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 18:55:10] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 19:02:45] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 19:02:46] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 19:05:50] "GET /display_all_logs/ HTTP/1.1" 200 8250
+[14/Oct/2017 19:05:52] "GET /logout/ HTTP/1.1" 302 0
+[14/Oct/2017 19:05:53] "GET /login/ HTTP/1.1" 200 2385
+[14/Oct/2017 19:06:45] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 19:06:46] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 19:06:49] "POST /resident_access/ HTTP/1.1" 200 39
+[14/Oct/2017 19:07:20] "POST /login_mobile/ HTTP/1.0" 200 46
+[14/Oct/2017 19:07:20] "POST /get_name_mobile/ HTTP/1.0" 200 20
+Not Found: /visitor_access/
+[14/Oct/2017 19:07:27] "POST /visitor_access/ HTTP/1.1" 404 0
+[14/Oct/2017 19:10:36] "POST /login_mobile/ HTTP/1.1" 200 47
+[14/Oct/2017 19:10:37] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 19:10:41] "POST /resident_access/ HTTP/1.1" 200 39
+[14/Oct/2017 19:11:06] "POST /resident_access/ HTTP/1.1" 200 39
+[14/Oct/2017 19:11:17] "POST /login_mobile/ HTTP/1.0" 200 47
+[14/Oct/2017 19:11:18] "POST /get_name_mobile/ HTTP/1.0" 200 24
+[14/Oct/2017 19:11:21] "POST /resident_access/ HTTP/1.1" 200 39

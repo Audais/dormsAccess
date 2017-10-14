@@ -21,7 +21,7 @@
             <div style="float:right">
                 <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/"><span
                         class="glyphicon glyphicon-user"></span> Logged as:
-                    <strong>{{ status }}</strong></a></li>
+                    <strong>{{ welcome }}</strong></a></li>
                 <li class="navbar-custom-item"><a class="navbar-custom-item-link" href="/logout"><span
                         class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
             </div>
@@ -31,14 +31,15 @@
         </ul>
     </div>
 
-
+  
 
 
     <div class="main-content">
-
+                              
         <form action="{% url "index" %}"
               method="POST">{% csrf_token %}
-
+             <label style="color: #1A5276;"><strong>{{ welcome }}</strong></label>
+             
             <h1>Add/Remove Visitors</h1>
 
             <label style="color: #EF3B3A;"><strong>{{ message }}</strong></label>
